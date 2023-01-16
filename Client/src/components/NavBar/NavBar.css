@@ -1,0 +1,37 @@
+.navIcons {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navIcons > a > img,
+.navIcons > svg,
+.navIcons > div > img {
+  width: 1.5rem;
+  transition: all ease-in-out 0.2s;
+}
+
+.navIcons > a > img:hover,
+.navIcons > div > img:hover,
+.navIcons > svg:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.notification {
+  position: relative;
+}
+
+.notification > span {
+  position: absolute;
+  color: #ffff;
+  text-align: center;
+  top: -9px;
+  right: -10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  height: 20px;
+  width: 20px;
+  background-color: rgba(255, 0, 0, 0.871);
+  border-radius: 50%;
+}

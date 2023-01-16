@@ -1,0 +1,30 @@
+.error {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error h1 {
+  font-size: 10rem;
+  background-color: red;
+  background-image: var(--buttonBg);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.error p {
+  margin-top: -3rem;
+  font-size: 2rem;
+}
+
+.error button {
+  font-size: 1.4rem;
+  height: 3rem;
+  border-radius: 12px;
+}

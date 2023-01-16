@@ -1,0 +1,24 @@
+.actions {
+  position: absolute;
+  right: 0; 
+  z-index: 100;
+  top: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 5px gray;
+}
+
+.actions > ul {
+  list-style: none;
+}
+
+.actions ul li {
+  margin: 10px 20px 0 -20px;
+  justify-content: flex-start;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  transition: all ease-in-out 0.2;
+}
+.actions ul li:hover {
+ transform: scale(1.1);
+}

@@ -1,0 +1,13 @@
+.noPost{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .noPost img {
+    width: 10rem;
+  }
+  .noPost p {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }

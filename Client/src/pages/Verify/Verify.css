@@ -1,0 +1,49 @@
+.mail-verify {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.mail-verify > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.mail-verify > img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.mail-verify p {
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 600;
+  width: 40%;
+}
+
+.button-verify {
+  height: 2rem;
+  padding: 2px 20px;
+}
+
+.button-logout {
+  height: 2rem;
+  color: var(--orange);
+  border: 2px solid var(--orange);
+  background: transparent;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.button-logout:hover {
+  background: var(--buttonBg);
+  color: #fff;
+}
+
+.verify-alert {
+  width: 40%;
+}

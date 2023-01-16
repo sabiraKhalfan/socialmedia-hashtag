@@ -1,0 +1,11 @@
+.all-caught-up{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
+.all-caught-up img{
+   border-radius: 50%;
+   width: 3rem;
+}

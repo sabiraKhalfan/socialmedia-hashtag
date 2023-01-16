@@ -1,0 +1,21 @@
+.gallery {
+  display: grid;
+  justify-content: center;
+  gap: 1rem;
+  grid-template-columns: 18rem 18rem;
+}
+
+.galleryImg {
+  display: flex;
+  background-color: var(--cardColor);
+  gap: 0.5rem;
+  transition: all ease-in-out 0.2s;
+}
+.galleryImg:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.galleryImg img {
+  object-fit: contain;
+  max-width: 100%;
+}
